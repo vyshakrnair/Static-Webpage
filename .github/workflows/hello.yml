@@ -1,0 +1,12 @@
+---
+name: hello-world-action
+on:
+  push: null
+  branches:
+    - main
+jobs:
+  demo: null
+  runs-on: ubuntu-latest
+  steps:
+    - name: greetings
+  run: echo "hello world"
